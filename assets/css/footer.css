@@ -1,0 +1,38 @@
+footer {
+  background-color: #003d60;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+footer ul {
+  list-style: none;
+  display: block;
+}
+
+footer a {
+  font-size: 25px;
+}
+
+footer a i {
+  color: white;
+  margin-right: 15px;
+}
+
+.footer-items {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.footer-items li {
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 0;
+  list-style: none;
+}
+
+.footer-logo {
+  height: 73px;
+  width: 120px;
+  background-image: url('https://pegcar.com/images/layout/new-logo.png');
+}

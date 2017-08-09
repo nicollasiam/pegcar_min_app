@@ -6,11 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>PegCar Min</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <%= assets(:css) %>
   </head>
   <body>
-    <div class="container">
-      <div class="page-header">My Roda App</div>
-      <%= yield %>
-    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="navbar-brand">
+            <img src="https://pegcar.com/images/layout/logo.png" alt="">
+          </a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="collapse-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Cadastre seu carro</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Como funciona <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/saiba-mais/condutor">Condutor</a></li>
+                <li><a href="/saiba-mais/proprietario">Proprietario</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Cadastre-se</a></li>
+            <li><a href="#">Entrar</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HTML will be rendered here -->
+    <%= yield %>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 flexbox">
+            <div class="col-xs-2 flex-item">
+              <div class="footer-logo"></div>
+            </div>
+
+            <div class="col-xs-2 flex-item">
+              <a href="https://www.facebook.com/pegcaroficial" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/_pegcar" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://instagram.com/_pegcar/" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/9299615" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>

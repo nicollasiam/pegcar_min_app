@@ -1,0 +1,19 @@
+.banner {
+  color: white;
+  background-image: url("https://pegcar.com/images//banners/home.png");
+  height: 430px;
+  width: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content h1 {
+  font-size: 5em;
+  margin-top: 150px;
+}
+
+.banner-content p {
+  font-size: 1.5em;
+}

@@ -1,0 +1,8 @@
+/*@import url("/components/index.css");*/
+
+body {
+  background: black;
+}
+.navbar.nabvar-default {
+  background: white;
+}

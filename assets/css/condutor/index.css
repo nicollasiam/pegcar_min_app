@@ -1,0 +1,21 @@
+.condutor-wrapper {
+  width: 100%;
+  background-color: #0065a0;
+  padding: 30px 0;
+  color: white;
+}
+
+.passo-a-passo-wrapper {
+  color: #606060;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  padding-bottom: 30px;
+}
+
+.passo-a-passo-wrapper h2 {
+  margin-bottom: 30px;
+}
+
+.text-justified {
+  text-align: justify;
+}

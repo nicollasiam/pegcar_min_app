@@ -1,0 +1,21 @@
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item {
+  flex-grow: 1;
+}
+
+.title {
+  margin: 50px 0;
+}
+
+.how-it-works a {
+  margin: 30px 0;
+}
+
+.paddingfy {
+  padding: 30px 0;
+}
