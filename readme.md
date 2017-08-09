@@ -10,9 +10,11 @@
 
 ## Instalar o sistema
 
+Clone o projeto para a sua máquina e instale as gems localizadas no Gemfile da aplicação
+
 ```bash
-git clone
-cd
+git clone https://github.com/nicollasiam/pegcar_min_app.git
+cd pegcar_min_app
 
 bundle install
 ```
@@ -24,3 +26,4 @@ Após clonado o projeto, basta iniciar o servidor para acessar a página estáti
 ```bash
 rackup
 ```
+Acesse http://localhost:9292 para navegar pela aplicação.
